@@ -33,7 +33,7 @@ export default class Product extends Component {
         <Row>
           {data.map((res, index) => (
             <Col lg="4" md="6" sm="12" key={index}>
-              <div style={{paddingBottom: "24px"}}>
+              <div style={{paddingBottom: "25px"}}>
                 <Card>
                   <Card.Img variant="top" src={res.cover} />
                   <Card.Body>
